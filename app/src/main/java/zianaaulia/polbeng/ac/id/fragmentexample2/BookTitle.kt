@@ -22,6 +22,7 @@ class BookTitle: Fragment(), View.OnClickListener {
         rlass3kotlin.setOnClickListener(this)
         rminandroid.setOnClickListener(this)
     }
+
     override fun onClick(v: View?) {
         var index: Int = 0
         when(v?.id){
